@@ -1,0 +1,12 @@
+.leftPart {
+    float: left;
+    width: 30%;
+    height: 100px;
+    background-color: bisque;
+}
+.rightPart {
+    float: left;
+    width: 70%;
+    height: 100px;
+    background-color: gray;
+}
