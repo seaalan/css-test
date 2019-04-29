@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>块元素</title>
+    <link rel="stylesheet" href="default.css">
+</head>
+<body>
+    <div class="part1">
+        常用块元素：
+        <div>div</div>
+        <p>p</p>
+        <header>header</header>
+        <section>section</section>
+        <aside>aside</aside>
+        <footer>footer</footer>
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3</h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <h6>h6</h6>
+        <ul>
+            <li>ul1</li>
+            <li>ul2</li>
+        </ul>
+        <ol>
+            <li>ol1</li>
+            <li>ol2</li>
+        </ol>
+        <address>address</address>
+        <menu>menu</menu>
+        <pre>pre</pre>
+        <hr>
+    </div>
+    <div class="part2">
+        不常用块元素：
+        <dl>
+            <dt>标题</dt>
+            <dd>标题下的小分类1</dd>
+            <dd>标题下的小分类2</dd>
+            <dd>标题下的小分类3</dd>
+        </dl>
+    </div>
+    <div>
+        使块元素在一行显示。float: left;
+    </div>
+    <div>
+        <section class="section1">section1</section>
+        <section class="section2">section2</section>
+    </div>
+    <div>
+        使用了 float 的元素，没有实现并排效果，可能原因在于父级的宽度不够，导致元素无法并排显示。
+    </div>
+    <section class="parentSection">
+        <section class="childSection1">childSection1</section>
+        <section class="childSection2">childSection2</section>
+    </section>
+</body>
+</html>

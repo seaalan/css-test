@@ -1,0 +1,16 @@
+div, p, header, section, aside, footer, h1, h2, h3, h4, h5, h6, ul, ol, li, address, menu, pre, hr, dl, dt, dd {
+    border: 2px solid red;
+}
+.part1, .part2 {
+    margin-bottom: 20px;
+    border: 0px solid red;
+}
+.section1 {
+    float: left;
+}
+.parentSection {
+    width: 30px;
+}
+.childSection1 {
+    float: left;
+}
