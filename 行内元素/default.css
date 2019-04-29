@@ -1,0 +1,17 @@
+span, a, label, input, img, textarea, select, button, strong, small, u, i, em, abbr, big, cite, sub, sup, q {
+    border: 2px solid red;
+}
+div {
+    margin-bottom: 20px;
+}
+.parent {
+    text-align: center;
+}
+.parent > div{
+    text-align: left;
+}
+.span {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}

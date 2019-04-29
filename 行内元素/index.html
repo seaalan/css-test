@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>行内元素</title>
+    <link rel="stylesheet" href="default.css">
+</head>
+<body>
+    <div>
+        常用行内元素：
+        <span>span</span>
+        <a href="http://" target="_blank" rel="noopener noreferrer">a</a>
+        <label for="">label</label>
+        <input type="text" name="text" id="">
+        <img src="https://offlintab.firefoxchina.cn/static/img/search/baidu_web.png" alt="">
+        <textarea name="" id="" cols="30" rows="2">textarea</textarea>
+        <select name="" id="">
+            <option value="">option1</option>
+            <option value="">option2</option>
+        </select>
+        <button>button</button>
+        <strong>strong</strong>
+    </div>
+    <div>
+        不常用行内元素：
+        <small>small</small>
+        <u>下划线</u>
+        <i>斜体</i>
+        <em>em</em>
+        <abbr title="">abbr</abbr>
+        <big>big</big>
+        <cite>引用</cite>
+        <sub>sub</sub>
+        <sup>sup</sup>
+        <q>短引用</q>
+    </div>
+    <div class="parent">
+        <div>行内元素水平居中方法一：父级设置 text-align : center;</div>
+        <span>我是行内元素，我要实现水平居中</span>
+    </div>
+    <div>
+        <div>行内元素水平居中方法二：转化成块元素并设置宽度，设置margin : 0 auto;</div>
+        <span class="span">我是行内元素，我要实现水平居中</span>
+    </div>
+</body>
+</html>
