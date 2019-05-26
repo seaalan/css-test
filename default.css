@@ -1,0 +1,30 @@
+/* 让一个不定宽高的 DIV，垂直水平居中 */
+/* 1. 使用Flex: 只需要在父盒子设置 */
+.flexParent{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+/* 2. 使用 CSS3 transform */
+.transformParent{
+    display: relative;
+}
+.transformDiv{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
+/* 3. 使用 display:table-cell 方法 */
+.displayParent{
+    display: table-cell; 
+    text-align: center;
+    vertical-align: middle;
+}
+.displayDiv{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: green;
+}
